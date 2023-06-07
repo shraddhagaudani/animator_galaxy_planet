@@ -32,48 +32,9 @@ class _HomepageState extends State<Homepage> {
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
     return Scaffold(
-        // appBar: AppBar
-        //   (elevation: 0,
-        //   backgroundColor:Colors.black,
-        //   title: const Text("Galaxy planet",style: TextStyle(color: Colors.white),),
-        //   actions: [
-        //     IconButton(
-        //       onPressed: () {
-        //         Provider.of<ThemeAccessProvider>(context, listen: false)
-        //             .Changetheme();
-        //       },
-        //       icon: (Provider.of<ThemeAccessProvider>(context)
-        //                   .themeAccessModel
-        //                   .isdark ==
-        //               false)
-        //           ? const Icon(
-        //               CupertinoIcons.moon_stars_fill,
-        //             )
-        //           : const Icon(
-        //               CupertinoIcons.sun_max_fill,
-        //             ),
-        //     ),
-        //   ],
-        // ),
+
         body: (Provider.of<LoadJsonProvider>(context).planets.isNotEmpty)
-            // ? CustomScrollView(
-            //     slivers: [
-            //       SliverAppBar(
-            //         flexibleSpace: FlexibleSpaceBar(
-            //           title: Text(textAlign: TextAlign.left,
-            //             "Galaxy Planet",
-            //           ),
-            //           collapseMode: CollapseMode.pin,
-            //           background: Image.asset("assets/images/bg.png"),
-            //         ),
-            //         collapsedHeight: 80,
-            //         expandedHeight:220,
-            //         pinned: true,
-            //         // floating: true,
-            //         // snap: true,
-            //       ),
-            //     ],
-            //   )
+
             ? Container(
                 height: double.infinity,
                 width: double.infinity,

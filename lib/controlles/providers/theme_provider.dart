@@ -18,8 +18,9 @@ class ThemeAccessProvider extends ChangeNotifier {
 
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
 
-    sharedPreferences.setBool('isdark', themeAccessModel.isdark);
+    sharedPreferences.setBool(
+      'isdark',
+      themeAccessModel.isdark,
+    );
   }
 }
-
-
