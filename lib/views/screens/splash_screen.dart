@@ -23,10 +23,13 @@ class _Splash_screenState extends State<Splash_screen> {
   loadJson() async {
     Provider.of<LoadJsonProvider>(context, listen: false).loadJson();
   }
+
   @override
   Widget build(BuildContext context) {
     Timer(
-      const Duration(seconds: 5),
+      const Duration(
+        seconds: 5,
+      ),
       () {
         Navigator.of(context).pushReplacementNamed(
           '/',
@@ -43,7 +46,6 @@ class _Splash_screenState extends State<Splash_screen> {
             ),
           ),
         ),
-
       ),
     );
   }

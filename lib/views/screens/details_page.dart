@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:animator_galaxy_planet/controlles/providers/loadjson_provider.dart';
+import 'package:animator_galaxy_planet/controlles/providers/theme_provider.dart';
 import 'package:animator_galaxy_planet/models/palnet_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -44,7 +45,10 @@ class _Details_pageState extends State<Details_page>
         ModalRoute.of(context)!.settings.arguments as Planets_Model;
     return Scaffold(
       appBar: AppBar(
+        foregroundColor: CupertinoColors.white,
+        centerTitle: true,
         backgroundColor: CupertinoColors.black,
+        title: Text("Details Page",style: TextStyle(color: CupertinoColors.white),),
         actions: [
           PopupMenuButton(
             initialValue: Provider.of<PopupmenuProvider>(context)
@@ -80,7 +84,7 @@ class _Details_pageState extends State<Details_page>
                                 CupertinoIcons.heart_fill,
                                 color: Colors.red,
                               )
-                            : const Icon(CupertinoIcons.heart),
+                            :  Icon(CupertinoIcons.heart,color: (Provider.of<ThemeAccessProvider>(context,listen: false).themeAccessModel.isdark == false)?CupertinoColors.black:CupertinoColors.white,),
                       ),
                       const Text(" favrioute"),
                     ],
