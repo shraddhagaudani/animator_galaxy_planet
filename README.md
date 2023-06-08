@@ -25,13 +25,13 @@ A new Flutter project.
 ## Getting Started
 
 
-
-
-
-
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
+
+
+https://github.com/shraddhagaudani/animator_galaxy_planet/assets/122030732/725c3f2d-8c2b-417d-916b-297c4c527ade
+
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
