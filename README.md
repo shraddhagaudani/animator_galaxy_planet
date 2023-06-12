@@ -1,5 +1,6 @@
 # animator_galaxy_planet
 Universe
+
 Project Description:
 "Galaxy Planets (Animator)" is an exciting mobile application built using Flutter, focusing on creating captivating animations. The app incorporates concepts such as Implicit Animation and Explicit Animation, along with additional features like Shared Preferences and Local JSON Bank. It offers a range of functionalities designed to provide users with an immersive and visually stunning experience.
 
