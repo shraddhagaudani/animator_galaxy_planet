@@ -50,7 +50,7 @@ A new Flutter project.
 
 <p>
 
-  <img align="left" src="https://github.com/shraddhagaudani/animator_galaxy_planet/assets/122030732/f9925988-fa56-4e24-9006-43136e680736" width="220px">
+<img align="left" src="https://github.com/shraddhagaudani/animator_galaxy_planet/assets/122030732/f9925988-fa56-4e24-9006-43136e680736" width="220px">
 <img align="left" src="https://github.com/shraddhagaudani/animator_galaxy_planet/assets/122030732/d776eb32-8017-4eff-a3ef-ae790b984995" width="220px">
 <img align="left" src="https://github.com/shraddhagaudani/animator_galaxy_planet/assets/122030732/e2ccc0a9-5336-4a29-940d-a310630cb9b9" width="220px">
 
